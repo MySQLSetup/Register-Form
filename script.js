@@ -33,7 +33,7 @@ document.getElementById('serverForm').addEventListener('submit', function(event)
         // Show confirmation modal
         const modal = document.getElementById('confirmationModal');
         modal.style.display = 'flex';
-    }, 300000); // Delay of 2 seconds (2000ms)
+    }, 160000); // Delay of 2 seconds (2000ms)
 });
 
 // Close confirmation modal after clicking finish
